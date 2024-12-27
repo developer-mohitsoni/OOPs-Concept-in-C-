@@ -2,7 +2,7 @@
 
 using namespace std;
 
-// Public Member inherits as Public Mode
+// Private Member inherits as Public Mode
 
 class Animal
 {
