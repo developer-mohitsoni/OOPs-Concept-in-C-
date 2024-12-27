@@ -36,7 +36,7 @@ int main()
 {
     Dog dogObj;
 
-    // No error occured by while accessing public data of base class and dervied class.
+    //* No error occured by while accessing public data of base class and dervied class.
     dogObj.bark();
     dogObj.age = 8;
     dogObj.eat();
