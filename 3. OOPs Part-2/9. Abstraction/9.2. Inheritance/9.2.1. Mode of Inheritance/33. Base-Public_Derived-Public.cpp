@@ -17,6 +17,12 @@ public:
 
 // Derived Class
 
+//! All public members of the base class remain public in the derived class.
+
+//! All protected members of the base class remain protected in the derived class.
+
+//! Private members of the base class are not directly accessible in the derived class.
+
 class Dog : public Animal
 {
 public:
