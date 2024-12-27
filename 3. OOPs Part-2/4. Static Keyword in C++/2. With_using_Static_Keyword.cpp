@@ -44,7 +44,7 @@ int main()
     BankAccount a3;
 
     // Accessing static member without an instance
-    std::cout << "Total accounts: " << BankAccount::getAccountCount() << std::endl; // Outputs: Total accounts: 3
+    cout << "Total accounts: " << BankAccount::getAccountCount() << endl; // Outputs: Total accounts: 3
 
     return 0;
 }
