@@ -35,7 +35,7 @@ int main()
 {
     Dog dogObj;
 
-    //* No error occured by while accessing public data member and member function withing the Derived Class.
+    //* No error occured by while accessing public data member and member function within the Derived Class.
     dogObj.bark();
 
     //! Error is occured as we are accessing private data member and member function in the Derived Class as public which is not possible.
