@@ -21,11 +21,11 @@ public:
 class Sparrow : public Bird // Implement
 {
 public:
-    void eat()
+    void eat() override
     {
         cout << "Sparrow is eating" << endl;
     }
-    void fly()
+    void fly() override
     {
         cout << "Sparrow is flying" << endl;
     }
