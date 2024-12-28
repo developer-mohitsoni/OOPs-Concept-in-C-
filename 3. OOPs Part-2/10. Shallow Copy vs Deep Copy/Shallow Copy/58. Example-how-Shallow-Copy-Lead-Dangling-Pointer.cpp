@@ -9,7 +9,7 @@ class MyClass
 public:
     int *myPointer;
 
-    MyClass() : myPointer(new int()) {};
+    MyClass() : myPointer(new int(20)) {};
 
     ~MyClass()
     {
@@ -19,17 +19,15 @@ public:
 
 int main()
 {
-    MyClass original;
+    MyClass original;            // Create original object
+    MyClass DeepCopy = original; // Create a deep copy
 
-    MyClass ShallowCopy = original; // Shallow copy
+    // Modify the value in the original
+    *original.myPointer = 100;
 
-    // Delete the original object
-
-    delete &original;
-
-    // Try to access the dynamically allocated object through ShallowCopy
-
-    int value = *ShallowCopy.myPointer; // This will cause a crash a program
+    // Check that DeepCopy is independent
+    cout << "Original Value: " << *original.myPointer << endl;  // Should print 100
+    cout << "Deep Copy Value: " << *DeepCopy.myPointer << endl; // Should print 100
 
     return 0;
 }
