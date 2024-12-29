@@ -41,6 +41,7 @@ int main()
 
     obj2.getData(30, 40);
     obj2.showData();
+    obj1.showData(); // Output: x = 10, y = 20, z = 2
 
     return 0;
 }
