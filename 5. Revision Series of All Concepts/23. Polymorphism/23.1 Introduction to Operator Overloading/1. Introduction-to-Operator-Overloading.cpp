@@ -6,11 +6,10 @@
 
 //! Every Operator can be Overload except these below:-
 
-// 1. Assignment operator (=)
-// 2. Member access operator (.)
-// 3. Scope resolution operator (::)
-// 4. sizeof operator (sizeof)
-// 5. typeid operator (typeid)
-// 6. Comprehension operator (?:)
-// 7. Comma operator (,)
-// 8. Astric operator (*)
+// 1. Member access operator (.)
+// 2. Scope resolution operator (::)
+// 3. sizeof operator (sizeof)
+// 4. typeid operator (typeid)
+// 5. Comprehension operator (?:)
+// 6. Comma operator (,)
+// 7. Astric operator (*)
