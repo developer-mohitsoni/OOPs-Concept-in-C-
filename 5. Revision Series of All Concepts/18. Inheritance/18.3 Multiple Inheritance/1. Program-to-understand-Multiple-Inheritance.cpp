@@ -6,8 +6,6 @@ using namespace std;
 
 // When there are more than one base class is being inherited by a single derived class, then it is called the concept of Multiple Inheritance.
 
-// It means when there is one base class & it is being derived by another single derived class. Then it is called as Single Level Inheritance.
-
 class A
 {
 protected:
