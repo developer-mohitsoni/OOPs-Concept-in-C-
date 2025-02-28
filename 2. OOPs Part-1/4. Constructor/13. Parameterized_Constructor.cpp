@@ -32,7 +32,7 @@ public:
 
 int main()
 {
-    //! NOTE:- You can easily access the private data members of this class directly by using the Explicit Default Constructor and Parameterized Constructor but not Default Constructor
+    //! NOTE:- You can easily access the private data members of this class directly by using the Explicit Default Constructor and Parameterized Constructor.
 
     // Constructor Called Automatically
 

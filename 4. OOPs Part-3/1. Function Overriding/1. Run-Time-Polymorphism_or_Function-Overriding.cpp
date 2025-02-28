@@ -33,11 +33,12 @@ public:
 
 void behave(Boy *boy)
 {
-    boy->behave();
+    boy->behave(); // Polymorphic
 };
 
 int main()
 {
+    // NOTE:- Compile time par heap ka nai use karte jabki hum Run time par heap ka use karte hai. Toh iss liye hum Dynamic Memory Allocation ka use karte hai
     Boy *boy = new Bus();
 
     behave(boy);

@@ -31,6 +31,12 @@ public:
         a = 10;
         b = 20;
     }
+
+    void display()
+    {
+        cout << "Value of a: " << a << endl;
+        cout << "Value of b: " << b << endl;
+    }
 };
 
 int main()
@@ -39,7 +45,7 @@ int main()
 
     Constructor obj;
 
-    cout << "Value of a: " << obj.a << endl;
-    cout << "Value of b: " << obj.b << endl;
+    obj.display();
+
     return 0;
 }
