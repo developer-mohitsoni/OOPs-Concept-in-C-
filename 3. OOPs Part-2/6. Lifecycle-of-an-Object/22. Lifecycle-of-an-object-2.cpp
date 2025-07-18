@@ -21,6 +21,9 @@ int main()
 {
     Student *s1 = new Student(25);
 
+    s1->age = 30; // Modifying the age of the student object
+    cout << "Student age after modification: " << s1->age << endl;
+
     delete s1; // Compiler will automatically call the destructor
 
     return 0;
