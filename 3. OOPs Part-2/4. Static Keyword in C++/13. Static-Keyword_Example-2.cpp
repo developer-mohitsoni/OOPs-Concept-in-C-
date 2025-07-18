@@ -28,6 +28,8 @@ int main()
 {
     ABC obj1;
 
+    obj1.printABC(); // 10 20
+
     obj1.x = 1;
     obj1.y = 2;
 

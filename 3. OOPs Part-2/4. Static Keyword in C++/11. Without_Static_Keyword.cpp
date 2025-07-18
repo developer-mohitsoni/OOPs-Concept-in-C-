@@ -22,6 +22,11 @@ int main()
     //* Iss code mai x and y ki different copy bnn rahi hai different object / instance ke liye.
     ABC obj = {1, 2};
 
+    // It similar like this:
+    // ABC obj;
+    // obj.x = 1;
+    // obj.y = 2;
+
     ABC obj2 = {4, 5};
 
     obj.printABC();

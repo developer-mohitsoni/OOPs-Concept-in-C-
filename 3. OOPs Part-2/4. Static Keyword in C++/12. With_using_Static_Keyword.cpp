@@ -4,6 +4,12 @@ using namespace std;
 
 //! NOTE:-
 
+//* Aap static member function ko bina kisi object ke bhi access kar sakte ho using class name.
+//* Static member function sirf uni member ko access kar paayega jo static keyword se define hai
+//* Static data members ke variable ko outside the class use karte hai using scope resolution operator.
+//* Static data members are shared across all instances of the class.
+//* Static member functions ke andar this pointer accessible nahi hota hai.
+
 // Q)- Why we use static data members instead of normal data members?
 
 // 1. Shared Across Instances: Static data members are shared among all instances of a class. This means that if one instance modifies a static member, the change is reflected across all instances. This is useful for data that should be common to all objects, such as a counter for the number of instances created.
@@ -39,6 +45,7 @@ int BankAccount::accountCount = 0;
 
 int main()
 {
+    BankAccount::getAccountCount(); // Accessing static member function without an instance
     BankAccount a1;
     BankAccount a2;
     BankAccount a3;
