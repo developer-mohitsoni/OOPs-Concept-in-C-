@@ -31,11 +31,11 @@ public:
 
     Student(int _id, string _name, int _age, string _gender, string _gf)
     {
-        id = _id;
-        name = _name;
-        age = _age;
-        gender = _gender;
-        gf = _gf;
+        this->id = _id;
+        this->name = _name;
+        this->age = _age;
+        this->gender = _gender;
+        this->gf = _gf;
 
         cout << "Parameterized Constructor Called for " << name << endl;
     }

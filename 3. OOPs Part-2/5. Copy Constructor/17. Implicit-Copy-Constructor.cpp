@@ -14,12 +14,12 @@ private:
 public:
     void init(int x)
     {
-        id = x;
+        this->id = x;
     }
 
     void display()
     {
-        cout << "ID: " << id << endl;
+        cout << "ID: " << this->id << endl;
     }
 };
 

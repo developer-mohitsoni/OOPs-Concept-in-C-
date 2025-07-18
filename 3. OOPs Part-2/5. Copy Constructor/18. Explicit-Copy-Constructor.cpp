@@ -14,7 +14,7 @@ private:
 public:
     void init(int x)
     {
-        id = x;
+        this->id = x;
     }
 
     Sample() {} // Default constructor with empty body
@@ -22,13 +22,13 @@ public:
     //! here there is no const keyword so if someone wants to change the data inside this copy constructor they can do so.
     Sample(Sample &t) // Copy Constructor
     {
-        id = t.id;
+        this->id = t.id;
         cout << "Copy Constructor Called" << endl;
     }
 
     void display()
     {
-        cout << "ID: " << id << endl;
+        cout << "ID: " << this->id << endl;
     }
 };
 
