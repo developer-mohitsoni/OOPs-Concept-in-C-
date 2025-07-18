@@ -45,6 +45,8 @@ int main()
 
     //! NOTE:- We can only access public data memebers and data functions
     //* Accessing the data members and data functions using (.) operator
+    // s1.gf = "Ayushi"; // This will cause an error because 'gf' is private
+    // s1.chatting(); // This will cause an error because 'chatting' is private
     s1.id = 104;
     s1.name = "John Doe";
     s1.age = 20;
