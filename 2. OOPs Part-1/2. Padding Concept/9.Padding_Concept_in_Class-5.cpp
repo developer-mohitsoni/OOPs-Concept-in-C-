@@ -10,7 +10,7 @@ class MyClass
     int a;
     int b;
     bool x;
-    string str; // string class size 24 bytes hoga
+    string str; // string class size 32 bytes hoga
     int c;
 };
 
