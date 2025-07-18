@@ -54,7 +54,7 @@ int main()
 
     //! Dynamic Memory Allocation of Class Object
 
-    Student *s2 = new Student(1, "Mohit", 20, "Male", "Shivani");
+    Student *s2 = new Student(1, "Mohit", 20, "Male", "Ayushi");
 
     cout << (*s2).name << endl; // First dereference the using (.) operator.
 
