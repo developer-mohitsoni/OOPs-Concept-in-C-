@@ -48,7 +48,7 @@ Student::Student(int id, string name, int age, string gender, string gf)
 
 string Student::getGf() const
 {
-    return gf; // Accessing private data member using 'this' pointer
+    return this->gf; // Accessing private data member using 'this' pointer
 }
 
 int main()
