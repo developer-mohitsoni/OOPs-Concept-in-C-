@@ -66,6 +66,12 @@ int main()
     cout << obj.getX() << endl; // 20
     cout << obj.getY() << endl; // 5
 
+    int *x = new int(15);
+
+    obj.setY(x);
+
+    cout << obj.getY() << endl; // 15
+
     printAbc(obj);
 
     int *q = new int(25);

@@ -48,6 +48,10 @@ int main()
 
     int *p = new int(30);
 
+    // The above line is equivalent to:
+    // int a = 30;
+    // int *p = &a;
+
     obj.setY(p);
 
     cout << obj.getY() << endl; // 30

@@ -60,6 +60,8 @@ void printAbc(const Abc &a)
 {
     cout << a.getX() << endl;
 
+    cout << a.getY() << endl;
+
     // cout << a.getZ() << endl; //! This will generate an error because getZ() function is not of constant type. Here we only perform those functions which has the const type.
 }
 
