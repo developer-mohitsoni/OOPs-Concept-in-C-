@@ -15,18 +15,18 @@ public:
     // Parameterized Constructor
     Point(int x1, int y2)
     {
-        x = x1;
-        y = y2;
+        this->x = x1;
+        this->y = y2;
     }
     // Getter Method
     int getX() const
     {
-        return x;
+        return this->x;
     }
     // Getter Method
     int getY() const
     {
-        return y;
+        return this->y;
     }
 };
 

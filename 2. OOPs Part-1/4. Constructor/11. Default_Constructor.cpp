@@ -28,14 +28,14 @@ public:
     // Default Constructor
     Constructor()
     {
-        a = 10;
-        b = 20;
+        this->a = 10;
+        this->b = 20;
     }
 
     void display()
     {
-        cout << "Value of a: " << a << endl;
-        cout << "Value of b: " << b << endl;
+        cout << "Value of a: " << this->a << endl;
+        cout << "Value of b: " << this->b << endl;
     }
 };
 

@@ -29,9 +29,9 @@ Student::Student(string name, int age)
 }
 
 // Getters Method
-string Student::getName() const { return name; }
+string Student::getName() const { return this->name; }
 
-int Student::getAge() const { return age; }
+int Student::getAge() const { return this->age; }
 
 int main()
 {

@@ -15,15 +15,15 @@ public:
     Student()
     {
         cout << "Enter the Roll Number" << endl; // Asking for input
-        cin >> roll_no;
+        cin >> this->roll_no;
 
         cout << "Enter the Name" << endl; // Asking for input
-        cin >> name;
+        cin >> this->name;
     }
     void display()
     {
-        cout << "Roll Number: " << roll_no << endl;
-        cout << "Name: " << name << endl;
+        cout << "Roll Number: " << this->roll_no << endl;
+        cout << "Name: " << this->name << endl;
     }
 };
 

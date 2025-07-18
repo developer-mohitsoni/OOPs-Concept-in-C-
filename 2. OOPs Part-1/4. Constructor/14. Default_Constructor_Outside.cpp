@@ -20,8 +20,8 @@ public:
 Student::Student()
 {
     // Default Constructor
-    name = "Mohit";
-    age = 23;
+    this->name = "Mohit";
+    this->age = 23;
 }
 
 int main()

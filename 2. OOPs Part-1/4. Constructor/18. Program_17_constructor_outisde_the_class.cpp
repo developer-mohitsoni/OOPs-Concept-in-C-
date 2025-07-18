@@ -50,7 +50,7 @@ Student::Student(int _id, string _name, int _age, string _gender, string _gf)
     cout << "Parameterized Constructor Called" << endl;
 
     // Accessing private member function
-    chatting(" with " + gf);
+    chatting(" with " + this->gf);
 }
 Student::Student(int _id, string _name, string _gender, string _bf)
 {
@@ -62,7 +62,7 @@ Student::Student(int _id, string _name, string _gender, string _bf)
     cout << "Parameterized Constructor Called" << endl;
 
     // Accessing private member function
-    chatting(" with " + bf);
+    chatting(" with " + this->bf);
 }
 void Student::study()
 {
@@ -72,15 +72,15 @@ int main()
 {
     Student s; // Default constructor Invoked
 
-    Student s1(1, "John", 20, "Male", "Jane"); // Parameterized constructor 1 Invoked
+    Student s1(1, "Mohit", 20, "Male", "Ayushi"); // Parameterized constructor 1 Invoked
 
     cout << s1.name << endl
-         << endl;
+        << endl;
 
-    Student s2(2, "Jane", "Female", "John"); // Parameterized constructor 2 Invoked
+    Student s2(2, "Ayushi", "Female", "Mohit"); // Parameterized constructor 2 Invoked
 
     cout << s2.name << endl
-         << endl;
+        << endl;
 
     s1.study(); // Accessing public member function
     return 0;

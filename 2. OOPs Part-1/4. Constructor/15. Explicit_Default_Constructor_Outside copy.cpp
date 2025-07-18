@@ -25,14 +25,14 @@ Student::Student()
 {
     // Explicit Default Constructor
     cout << "Enter the Name" << endl; // Asking for input
-    cin >> name;
+    cin >> this->name;
 
     cout << "Enter the Age" << endl; // Asking for input
-    cin >> age;
+    cin >> this->age;
 }
-string Student::getName() const { return name; }
+string Student::getName() const { return this->name; }
 
-int Student::getAge() const { return age; }
+int Student::getAge() const { return this->age; }
 
 int main()
 {
