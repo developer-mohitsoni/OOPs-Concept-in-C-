@@ -32,7 +32,7 @@ int main()
 
     // Check that DeepCopy is independent
     cout << "Original Value: " << *original.myPointer << endl;  // Should print 100
-    cout << "Deep Copy Value: " << *DeepCopy.myPointer << endl; // Should print 42
+    cout << "Deep Copy Value: " << *DeepCopy.myPointer << endl; // Should print 20
 
     return 0;
 }

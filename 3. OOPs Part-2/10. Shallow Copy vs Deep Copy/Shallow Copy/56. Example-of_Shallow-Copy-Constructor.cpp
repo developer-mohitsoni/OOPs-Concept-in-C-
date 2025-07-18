@@ -17,8 +17,8 @@ public:
 
     ABC(const ABC &obj)
     {
-        x = obj.x;
-        y = obj.y;
+        this->x = obj.x;
+        this->y = obj.y;
 
         cout << "Copy Constructor Called" << endl;
     }
